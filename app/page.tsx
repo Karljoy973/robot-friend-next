@@ -1,3 +1,4 @@
+import RobotCard from "@/component/UI/RobotCard/robot-card";
 import Image from "next/image";
 
 export default function Home() {
@@ -48,6 +49,8 @@ export default function Home() {
             Read our docs
           </a>
         </div>
+    <RobotCard name="karl" email="karl@gmail.com"/>
+
       </main>
       <footer className="row-start-3 flex gap-6 flex-wrap items-center justify-center">
         <a
