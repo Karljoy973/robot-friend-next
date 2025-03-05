@@ -1,5 +1,17 @@
 @import "tailwindcss";
 
+@font-face {
+  font-display: swap;
+  font-family: 'SEGA LOGO FONT';
+  font-style: normal;
+  font-weight: normal;
+  src: local('SEGA LOGO FONT'), url('SEGA.woff') format('woff');
+}
+
+.sega {
+  font-family: 'Sega LOGO FONT';
+}
+
 :root {
   --background: #ffffff;
   --foreground: #171717;
@@ -14,13 +26,12 @@
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+    --background-start: #011138;
+    --background-end:#00bbbb;
   }
 }
 
 body {
-  background: var(--background);
-  color: var(--foreground);
+  background: linear-gradient(270deg, var(--background-start), var(--background-end));
   font-family: Arial, Helvetica, sans-serif;
 }
