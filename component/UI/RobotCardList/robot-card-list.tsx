@@ -6,7 +6,7 @@ type RobotCardListArgs = { data: RobotCardArgs[] };
 const RobotCardList = ({ data }: RobotCardListArgs) => {
   let items = data.map((e) => (
 		<li className="mx-4 my-2" key={uuidv7()}>
-			<RobotCard name={e.name} email={e.email} robotId={e.robotId} />
+			<RobotCard {...e} />
 		</li>
   ));
   return (
