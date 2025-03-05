@@ -2,6 +2,8 @@ import React from "react";
 import RobotCardList from "./robot-card-list";
 import { render, screen } from "@testing-library/react";
 
+
+Date.now = jest.fn(() => 1_482_363_367_071);
 let db = [
   {
     email: "toto@toto.com",

@@ -8,27 +8,12 @@ exports[`shall display a grid of robot cards correctly 1`] = `
     class="mx-4 my-2"
   >
     <div
-      class="
- flex
- flex-col
- justify-center
- items-center
- w-3xs
- rounded-2xl
- bg-teal-200
- transition
- delay-50
- duration-300 
- ease-in-out 
- hover:-translate-y-1 
- hover:scale-110
- hover:bg-teal-400
- "
-      id="0195644a-9872-726a-9521-bb20d86c3f4f"
+      class=" flex flex-col justify-center items-center w-3xs rounded-2xl bg-teal-200 transition delay-50 duration-300  ease-in-out  hover:-translate-y-1  hover:scale-110 hover:bg-teal-400 "
+      id="1482363367071"
     >
       <img
         class="my-4"
-        src="https://robohash.org/0195644a-9872-726a-9521-bb20d86c3f4f?size=200x200"
+        src="https://robohash.org/1482363367071?size=200x200"
       />
       <span
         class="grow flex flex-col justify-center items-center my-4"
@@ -50,27 +35,12 @@ exports[`shall display a grid of robot cards correctly 1`] = `
     class="mx-4 my-2"
   >
     <div
-      class="
- flex
- flex-col
- justify-center
- items-center
- w-3xs
- rounded-2xl
- bg-teal-200
- transition
- delay-50
- duration-300 
- ease-in-out 
- hover:-translate-y-1 
- hover:scale-110
- hover:bg-teal-400
- "
-      id="0195644a-9875-742f-8733-0593f730ccd6"
+      class=" flex flex-col justify-center items-center w-3xs rounded-2xl bg-teal-200 transition delay-50 duration-300  ease-in-out  hover:-translate-y-1  hover:scale-110 hover:bg-teal-400 "
+      id="1482363367071"
     >
       <img
         class="my-4"
-        src="https://robohash.org/0195644a-9875-742f-8733-0593f730ccd6?size=200x200"
+        src="https://robohash.org/1482363367071?size=200x200"
       />
       <span
         class="grow flex flex-col justify-center items-center my-4"
@@ -92,27 +62,12 @@ exports[`shall display a grid of robot cards correctly 1`] = `
     class="mx-4 my-2"
   >
     <div
-      class="
- flex
- flex-col
- justify-center
- items-center
- w-3xs
- rounded-2xl
- bg-teal-200
- transition
- delay-50
- duration-300 
- ease-in-out 
- hover:-translate-y-1 
- hover:scale-110
- hover:bg-teal-400
- "
-      id="0195644a-9876-77fe-a780-ac31575f7db8"
+      class=" flex flex-col justify-center items-center w-3xs rounded-2xl bg-teal-200 transition delay-50 duration-300  ease-in-out  hover:-translate-y-1  hover:scale-110 hover:bg-teal-400 "
+      id="1482363367071"
     >
       <img
         class="my-4"
-        src="https://robohash.org/0195644a-9876-77fe-a780-ac31575f7db8?size=200x200"
+        src="https://robohash.org/1482363367071?size=200x200"
       />
       <span
         class="grow flex flex-col justify-center items-center my-4"
@@ -134,27 +89,12 @@ exports[`shall display a grid of robot cards correctly 1`] = `
     class="mx-4 my-2"
   >
     <div
-      class="
- flex
- flex-col
- justify-center
- items-center
- w-3xs
- rounded-2xl
- bg-teal-200
- transition
- delay-50
- duration-300 
- ease-in-out 
- hover:-translate-y-1 
- hover:scale-110
- hover:bg-teal-400
- "
-      id="0195644a-9877-7391-9d8f-ada33558aca6"
+      class=" flex flex-col justify-center items-center w-3xs rounded-2xl bg-teal-200 transition delay-50 duration-300  ease-in-out  hover:-translate-y-1  hover:scale-110 hover:bg-teal-400 "
+      id="1482363367071"
     >
       <img
         class="my-4"
-        src="https://robohash.org/0195644a-9877-7391-9d8f-ada33558aca6?size=200x200"
+        src="https://robohash.org/1482363367071?size=200x200"
       />
       <span
         class="grow flex flex-col justify-center items-center my-4"
