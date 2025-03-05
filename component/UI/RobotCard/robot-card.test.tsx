@@ -24,6 +24,12 @@ it("shall be a RobotCard", () => {
 });
 
 it('shall stay like a RoboCard', () => {
-    let component = render(<RobotCard name={robotData.name} email={robotData.email}/>)
+    let component = render(
+		<RobotCard
+			name={robotData.name}
+			email={robotData.email}
+			robotId={robotData.robotId}
+		/>
+	);
     expect(component).toMatchSnapshot()
 })
