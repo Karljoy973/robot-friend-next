@@ -1,0 +1,116 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`shall display a grid of robot cards correctly 1`] = `
+<ul
+  class="flex flex-wrap"
+>
+  <li
+    class="mx-4 my-2"
+  >
+    <div
+      class="flex w-3xs flex-col justify-center items-center rounded-2xl bg-teal-200"
+      id="0195643e-ab21-74c7-b503-f27371c2476a"
+    >
+      <img
+        class="my-4"
+        src="https://robohash.org/0195643e-ab21-74c7-b503-f27371c2476a?size=200x200"
+      />
+      <span
+        class="grow flex flex-col justify-center items-center my-4"
+      >
+        <h2
+          class="w-fit text-xl font-semibold font-[system-ui] text-black"
+        >
+          toto
+        </h2>
+        <p
+          class="font-[system-ui] text-black font-medium"
+        >
+          toto@toto.com
+        </p>
+      </span>
+    </div>
+  </li>
+  <li
+    class="mx-4 my-2"
+  >
+    <div
+      class="flex w-3xs flex-col justify-center items-center rounded-2xl bg-teal-200"
+      id="0195643e-ab25-70f9-8b29-066938b392fa"
+    >
+      <img
+        class="my-4"
+        src="https://robohash.org/0195643e-ab25-70f9-8b29-066938b392fa?size=200x200"
+      />
+      <span
+        class="grow flex flex-col justify-center items-center my-4"
+      >
+        <h2
+          class="w-fit text-xl font-semibold font-[system-ui] text-black"
+        >
+          tata
+        </h2>
+        <p
+          class="font-[system-ui] text-black font-medium"
+        >
+          tata@tata.com
+        </p>
+      </span>
+    </div>
+  </li>
+  <li
+    class="mx-4 my-2"
+  >
+    <div
+      class="flex w-3xs flex-col justify-center items-center rounded-2xl bg-teal-200"
+      id="0195643e-ab27-755b-9a99-3f9428be30d0"
+    >
+      <img
+        class="my-4"
+        src="https://robohash.org/0195643e-ab27-755b-9a99-3f9428be30d0?size=200x200"
+      />
+      <span
+        class="grow flex flex-col justify-center items-center my-4"
+      >
+        <h2
+          class="w-fit text-xl font-semibold font-[system-ui] text-black"
+        >
+          titi
+        </h2>
+        <p
+          class="font-[system-ui] text-black font-medium"
+        >
+          titi@titi.com
+        </p>
+      </span>
+    </div>
+  </li>
+  <li
+    class="mx-4 my-2"
+  >
+    <div
+      class="flex w-3xs flex-col justify-center items-center rounded-2xl bg-teal-200"
+      id="0195643e-ab28-74a9-b7fd-56cb9c446063"
+    >
+      <img
+        class="my-4"
+        src="https://robohash.org/0195643e-ab28-74a9-b7fd-56cb9c446063?size=200x200"
+      />
+      <span
+        class="grow flex flex-col justify-center items-center my-4"
+      >
+        <h2
+          class="w-fit text-xl font-semibold font-[system-ui] text-black"
+        >
+          tutu
+        </h2>
+        <p
+          class="font-[system-ui] text-black font-medium"
+        >
+          tutu@tutu.com
+        </p>
+      </span>
+    </div>
+  </li>
+</ul>
+`;
