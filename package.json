@@ -8,12 +8,13 @@
     "start": "next start",
     "lint": "next lint",
     "test": "jest",
-    "pretest": "npx jest "
+    "test:update": "jest --updateSnapshot "
   },
   "dependencies": {
     "next": "15.2.1",
     "react": "^19.0.0",
-    "react-dom": "^19.0.0"
+    "react-dom": "^19.0.0",
+    "uuid": "^11.1.0"
   },
   "devDependencies": {
     "@babel/cli": "^7.26.4",
