@@ -7,11 +7,11 @@ exports[`shall stay like a RoboCard 1`] = `
     <div>
       <div
         class="flex w-3xs flex-col justify-center items-center rounded-2xl bg-teal-200"
-        id="0195639a-145e-704f-b300-d74b90ca4e09"
+        id="019563d5-ceb9-7779-916b-bedb2a6c3bac"
       >
         <img
           class="my-4"
-          src="https://robohash.org/0195639a-145e-704f-b300-d74b90ca4e09?size=200x200"
+          src="https://robohash.org/019563d5-ceb9-7779-916b-bedb2a6c3bac?size=200x200"
         />
         <span
           class="grow flex flex-col justify-center items-center my-4"
@@ -34,11 +34,11 @@ exports[`shall stay like a RoboCard 1`] = `
   "container": <div>
     <div
       class="flex w-3xs flex-col justify-center items-center rounded-2xl bg-teal-200"
-      id="0195639a-145e-704f-b300-d74b90ca4e09"
+      id="019563d5-ceb9-7779-916b-bedb2a6c3bac"
     >
       <img
         class="my-4"
-        src="https://robohash.org/0195639a-145e-704f-b300-d74b90ca4e09?size=200x200"
+        src="https://robohash.org/019563d5-ceb9-7779-916b-bedb2a6c3bac?size=200x200"
       />
       <span
         class="grow flex flex-col justify-center items-center my-4"
