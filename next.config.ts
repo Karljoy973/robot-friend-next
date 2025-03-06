@@ -15,7 +15,7 @@ const nextConfig: NextConfig = {
   /* config options here */
 };
 
-const response = await unstable_getResponseFromNextConfig({
+const response = async () => await unstable_getResponseFromNextConfig({
   url: "https://nextjs.org/test", 
   nextConfig
 })
