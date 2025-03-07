@@ -1,15 +1,25 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`should remain a Roboat Searchbar 1`] = `
+exports[`how the ui is reacting to the handled input event should remain a Roboat Searchbar 1`] = `
 {
   "asFragment": [Function],
   "baseElement": <body>
     <div>
-      <div />
+      <input
+        maxlength="150"
+        pattern=""
+        placeholder="Search Robot"
+        type="search"
+      />
     </div>
   </body>,
   "container": <div>
-    <div />
+    <input
+      maxlength="150"
+      pattern=""
+      placeholder="Search Robot"
+      type="search"
+    />
   </div>,
   "debug": [Function],
   "findAllByAltText": [Function],

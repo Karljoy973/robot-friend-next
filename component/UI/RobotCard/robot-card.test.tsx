@@ -1,6 +1,7 @@
 import { render } from "@testing-library/react";
 import React from "react";
-import RobotCard, { RobotCardArgs } from "./robot-card";
+import RobotCard from "./robot-card";
+import { RobotCardArgs } from "types/types";
 
 let robotData: RobotCardArgs = {
 	name: "kalou",

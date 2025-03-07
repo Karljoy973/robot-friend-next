@@ -1,10 +1,11 @@
 import React from "react";
+import { RobotCardArgs } from "types/types";
 import { v7 as uuidv7 } from "uuid";
-export type RobotCardArgs = {
-  email: string;
-  name: string;
-  robotId?: string;
-};
+// export type RobotCardArgs = {
+//   email: string;
+//   name: string;
+//   robotId?: string;
+// };
 
 const RobotCard = (props: RobotCardArgs) => {
 	let Id = props.robotId ?? uuidv7();

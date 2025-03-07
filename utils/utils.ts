@@ -1,0 +1,1 @@
+export const searchRobot = (e: InputEvent, data: any[]) => data.filter(elem => elem.name.includes(e.data) ) 

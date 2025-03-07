@@ -1,5 +1,4 @@
 import type { NextConfig } from "next";
-import phase from 'next/constants'
 import {
   unstable_getResponseFromNextConfig,
 } from 'next/experimental/testing/server'

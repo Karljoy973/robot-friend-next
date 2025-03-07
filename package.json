@@ -7,7 +7,7 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "test": "jest",
+    "test": "jest --watch --verbose --resetMocks",
     "test:update": "jest --updateSnapshot ",
     "pretty": "npx prettier . --write"
   },
