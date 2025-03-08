@@ -23,6 +23,11 @@ npm run dev
 ```
 3. Open the project on http://localhost:3000
 
+## Figma Design 
+https://www.figma.com/design/yetuWBtixLSl3eRehaYKn6/uis?node-id=76-13&m=dev&t=s5wN5fafDl8edBGZ-1
+![App Front-end](./public/assets/RobotFriendsDesign.png)
+
+
 ## Technical Stack 
 - Front-end : Nextjs, tailwind
 - Hosting : FireHosting 
