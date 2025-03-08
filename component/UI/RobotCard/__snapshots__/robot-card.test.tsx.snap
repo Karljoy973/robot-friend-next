@@ -6,7 +6,22 @@ exports[`shall stay like a RoboCard 1`] = `
   "baseElement": <body>
     <div>
       <div
-        class=" flex flex-col justify-center items-center w-3xs rounded-2xl bg-teal-200 transition duration-150  ease-in-out  hover:-translate-y-1 hover:scale-110 hover:bg-teal-400 focusfocus:animate-bounce "
+        class="
+ flex
+ flex-col
+ justify-center
+ items-center
+ w-3xs
+ rounded-2xl
+ bg-teal-200
+ transition
+ duration-150 
+ ease-in-out 
+ hover:-translate-y-1
+ hover:scale-110
+ hover:bg-teal-400
+ focusfocus:animate-bounce
+ "
         id="rkbkjkqfdqk"
       >
         <img
@@ -32,7 +47,22 @@ exports[`shall stay like a RoboCard 1`] = `
   </body>,
   "container": <div>
     <div
-      class=" flex flex-col justify-center items-center w-3xs rounded-2xl bg-teal-200 transition duration-150  ease-in-out  hover:-translate-y-1 hover:scale-110 hover:bg-teal-400 focusfocus:animate-bounce "
+      class="
+ flex
+ flex-col
+ justify-center
+ items-center
+ w-3xs
+ rounded-2xl
+ bg-teal-200
+ transition
+ duration-150 
+ ease-in-out 
+ hover:-translate-y-1
+ hover:scale-110
+ hover:bg-teal-400
+ focusfocus:animate-bounce
+ "
       id="rkbkjkqfdqk"
     >
       <img

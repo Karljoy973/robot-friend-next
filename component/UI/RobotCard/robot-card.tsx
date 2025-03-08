@@ -9,6 +9,7 @@ import { v7 as uuidv7 } from "uuid";
 
 const RobotCard = (props: RobotCardArgs) => {
 	let Id = props.robotId ?? uuidv7();
+	console.log("hello world");
 	return (
 		<>
 			<div
