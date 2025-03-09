@@ -45,7 +45,9 @@ describe("TheRobotFriendsHeader", () => {
         //snapshot testing 
     })
     
-    it("should match the (ERF-0/US-T/US-H1) issue requirements on the phone screen layout", () => { })
+    it("should match the (ERF-0/US-T/US-H1) issue requirements on the phone screen layout", () => {
+		// TODO: Define this layout
+	});
     it("should keep matching the (ERF-0/US-T/US-H1) issue requirements on the phone screen layout", () => {
         //snapshot testing 
     })
