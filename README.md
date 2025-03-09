@@ -30,8 +30,8 @@ https://www.figma.com/design/yetuWBtixLSl3eRehaYKn6/uis?node-id=76-13&m=dev&t=s5
 
 ## Technical Stack 
 - Front-end : Nextjs, tailwind
-- Hosting : FireHosting 
-- Database: Firebase 
+- Hosting : Vercel Hosting 
+- Database: Vercel Storage 
 - Testing : Jest + react-testing-library
 
 ## License
