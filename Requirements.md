@@ -3,6 +3,10 @@
 atomic deesing (project structure : done)
 ci/cd pipeline (
     check the ci/cd course
+    https://vercel.com/karljoy973s-projects/robot-friend-next/deployments
+    https://vercel.com/guides/deploying-react-with-vercel
+    https://vercel.com/docs/git#deploying-a-git-repository
+    https://nextjs.org/docs/app/building-your-application/deploying
 )
 unit testing ()
 autodocumentation (
@@ -25,3 +29,5 @@ github actions (
     Automation : setup a labeler and stale actions 
 )
 github workflows 
+
+
