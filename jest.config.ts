@@ -26,11 +26,11 @@ const config : NextConfig= {
     '^.+\\.(png|jpg|jpeg|gif|webp|avif|ico|bmp|svg)$': `<rootDir>/__mocks__/fileMock.js`,
  
     // Handle module aliases
-    '^@/components/(.*)$': '<rootDir>/components/$1',
-    '^@utils/(.*)$': '<rootDir>/utils/$1',
-    '^_@types/(.*)$': '<rootDir>/types/$1',
-    '^@component/(.*)$': '<rootDir>/component/$1',
-    '^@app/(.*)$': '<rootDir>/app/$1',
+    // '^@/components/(.*)$': '<rootDir>/components/$1',
+    // '^@utils/(.*)$': '<rootDir>/utils/$1',
+    // '^_@types/(.*)$': '<rootDir>/types/$1',
+    // '^@component/(.*)$': '<rootDir>/component/$1',
+    // '^@app/(.*)$': '<rootDir>/app/$1',
     // Handle @next/font
     '@next/font/(.*)': `<rootDir>/__mocks__/nextFontMock.js`,
     // Handle next/font

@@ -1,17 +1,5 @@
 @import "tailwindcss";
 
-@font-face {
-  font-display: swap;
-  font-family: 'SEGA LOGO FONT';
-  font-style: normal;
-  font-weight: normal;
-  src: local('SEGA LOGO FONT'), url('SEGA.woff') format('woff');
-}
-
-.sega {
-  font-family: 'Sega LOGO FONT';
-}
-
 :root {
   --background: #ffffff;
   --foreground: #171717;
@@ -20,8 +8,9 @@
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+  --font-sans: var(--font-audiowide);
+  --font-mono: var(--font-audiowide);
+  /* whatch how to configure tailwind custom classes */
 }
 
 @media (prefers-color-scheme: dark) {
@@ -33,5 +22,17 @@
 
 body {
   background: linear-gradient(270deg, var(--background-start), var(--background-end));
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Audiowide", "Albert Sans";
+}
+
+.back-text {
+z-index: -1;
+}
+.front-text {
+z-index: 1;
+}
+
+.robot-friends-span {
+  width: max-content;
+  height: min-content;
 }
