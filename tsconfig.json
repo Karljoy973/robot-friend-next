@@ -21,10 +21,10 @@
     "baseUrl": "./",
     "paths": {
       "@/*": ["./*"],
-      "@/types/*": ["./types/*"],
-      "@/utils/*": ["utils/*"],
-      "@/app/*": ["app/*"],
-      "@/components/*": ["components/*"],
+      "_types/*": ["./types/*"],
+      "utils/*": ["utils/*"],
+      "app/*": ["app/*"],
+      "component/*": ["component/*"],
 
     }
   },
