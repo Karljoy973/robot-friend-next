@@ -8,7 +8,7 @@
     "start": "next start",
     "lint": "next lint",
     "test": "jest",
-    "test:ui": "npx playwright test --ui",
+    "test:ee": "npx playwright test --ui  --trace on",
     "pretty": "npx prettier . --write"
   },
   "dependencies": {

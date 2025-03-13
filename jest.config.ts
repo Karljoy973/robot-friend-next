@@ -29,7 +29,7 @@ const config: Config = {
 
   // An array of regexp pattern strings used to skip coverage collection
   coveragePathIgnorePatterns: [
-    "\\\\node_modules\\\\"
+    "\\\\node_modules\\\\", "\\\\e2e\\\\" 
   ],
 
   // Indicates which provider should be used to instrument code for coverage
@@ -189,6 +189,7 @@ const config: Config = {
     "\\\\node_modules\\\\",
     "\\.pnp\\.[^\\\\]+$", 
     '^.+\\.module\\.(css|sass|scss)$',
+    "\\\\e2e\\\\"
   ],
 
   // An array of regexp pattern strings that are matched against all modules before the module loader will automatically return a mock for them
