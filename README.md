@@ -30,8 +30,8 @@ npm run dev
 
 ## Technical Stack 
 - Front-end : Nextjs, tailwind
-- Hosting : FireHosting 
-- Database: Firebase 
+- Hosting : Vercel Hosting 
+- Database: Vercel Storage 
 - Testing : Jest + react-testing-library
 
 ## License
