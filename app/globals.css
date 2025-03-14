@@ -36,3 +36,11 @@ z-index: 1;
   width: max-content;
   height: min-content;
 }
+
+h4 {
+  white-space: no-wrap;
+  text-overflow: clip;
+}
+.relative {
+  display: inline
+}

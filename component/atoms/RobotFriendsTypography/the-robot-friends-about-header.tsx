@@ -1,37 +1,38 @@
-const TheRobotFriendsHeader = () => {
+
+const TheRobotFriendsAboutHeader = () => {
     return (
-		<>
-			<header
-				data-testid="robot-friends-header"
+        
+        <>
+    <header
+				data-testid="robot-friends-about-header"
 				className="robot-friends-header relative inline-block min-h-screen content-center justify-items-center">
-				<div className="relative">
-					<h2
+				<div className="relative flex flex-nowrap">
+					<h3
 						aria-level={2}
 						data-testid="back-title"
 						className="text-black 
-						text-[128px]
+						text-[64px]
 						font-bold 
 						tracking-normal
 						">
-						Robot Friends
-					</h2>
-					<h2
+						About This Project
+					</h3>
+					<h3
 						aria-level={2}
 						data-testid="front-title"
 						className="absolute 
-						top-[15px]
-						left-[1px]
-						text-[115px]
+						top-[12px]
+						
+						text-[54px]
 						font-bold
-						tracking-[7px]
+						tracking-[6px]
 						text-white
 						">
-						Robot Friends
-					</h2>
+						About This Project
+					</h3>
 				</div>
 			</header>
-		</>
-	);
+    </>);
 }
  
-export default TheRobotFriendsHeader;
+export default TheRobotFriendsAboutHeader;
