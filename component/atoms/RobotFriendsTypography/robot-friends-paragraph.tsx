@@ -1,23 +1,16 @@
 import { Children, ReactNode } from "react";
 
 type ParagraphProps = {
-	children: ReactNode, 
-	bgColor: string,
-	textColor: string
-}
+	children: ReactNode;
+	"bg-color": string;
+	"text-color": string;
+};
 
-const RobotFriendsParagraph = ({children, bgColor, textColor}: Partial<ParagraphProps>) => {
-    return (
-		<>
-			<div>
-				{Children.map(children, (child) => {
-
-					if (!child) return <p className={`${bgColor} ${textColor}`}></p>
-					return <p className={`${bgColor} ${textColor}`}>{child}</p>
-				 })}
-			</div>
-		</>
+const RobotFriendsParagraph = (props: Partial<ParagraphProps>) => {
+	return (
+		<div
+			className={`robot-friends ${props["bg-color"] ?? ""} ${props["text-color"] ?? ""}`}></div>
 	);
-}
+};
  
 export default RobotFriendsParagraph;
