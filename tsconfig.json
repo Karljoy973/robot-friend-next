@@ -24,11 +24,9 @@
       "_types/*": ["./types/*"],
       "utils/*": ["utils/*"],
       "app/*": ["app/*"],
-      "component/*": ["component/*"],
-
+      "component/*": ["component/*"]
     }
   },
   "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts"],
-  "exclude": ["node_modules"], 
-  
+  "exclude": ["node_modules"]
 }

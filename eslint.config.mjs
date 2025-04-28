@@ -1,16 +1,15 @@
 import globals from "globals";
 import pluginJs from "@eslint/js";
-import js from '@eslint/js'
+import js from "@eslint/js";
 import tseslint from "typescript-eslint";
 import pluginReact from "eslint-plugin-react";
-import { FlatCompat } from '@eslint/eslintrc'
-
+import { FlatCompat } from "@eslint/eslintrc";
 
 const compat = new FlatCompat({
   // import.meta.dirname is available after Node.js v20.11.0
   baseDirectory: process.cwd(),
   recommendedConfig: js.configs.recommended,
-})
+});
 
 /** @type {import('eslint').Linter.Config[]} */
 export default [
@@ -20,7 +19,6 @@ export default [
   ...tseslint.configs.recommended,
   pluginReact.configs.flat.recommended,
   ...compat.config({
-    extends: ['eslint:recommended', 'next'],
+    extends: ["eslint:recommended", "next"],
   }),
-
 ];
