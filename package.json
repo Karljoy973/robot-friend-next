@@ -10,7 +10,6 @@
     "test": "jest",
     "test:ee": "npx playwright test --ui  --trace on",
     "pretty": "npx prettier . --write", 
-    "install": "npm install --legacy-peer-deps"
   },
   "dependencies": {
     "@playwright/experimental-ct-react": "^1.52.0",
