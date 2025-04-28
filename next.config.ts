@@ -5,11 +5,10 @@ const nextConfig: NextConfig = {
     reactRemoveProperties: true,
   },
   async redirects() {
-    return [{ source: '/test', destination: '/test2', permanent: false }]
+    return [{ source: "/test", destination: "/test2", permanent: false }];
   },
-  
+
   /* config options here */
 };
-
 
 export default nextConfig;

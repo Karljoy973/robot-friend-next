@@ -16,20 +16,24 @@
 @media (prefers-color-scheme: dark) {
   :root {
     --background-start: #011138;
-    --background-end:#00bbbb;
+    --background-end: #00bbbb;
   }
 }
 
 body {
-  background: linear-gradient(270deg, var(--background-start), var(--background-end));
+  background: linear-gradient(
+    270deg,
+    var(--background-start),
+    var(--background-end)
+  );
   font-family: "Audiowide", "Albert Sans";
 }
 
 .back-text {
-z-index: -1;
+  z-index: -1;
 }
 .front-text {
-z-index: 1;
+  z-index: 1;
 }
 
 .robot-friends-span {
@@ -42,5 +46,5 @@ h4 {
   text-overflow: clip;
 }
 .relative {
-  display: inline
+  display: inline;
 }
